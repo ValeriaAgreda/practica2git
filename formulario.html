@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="inscripcion.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="practica2.js"></script>
+</head>
+<body>
+    <div id="Registro">
+        <h1>Inscripcion colegio tiquipaya</h1>
+        <fieldset class="form">
+            <legend>Datos Personales</legend>
+        
+            <label for="">Nombre:</label>
+            <input type="text" name="name" id="name">
+            <label for="">Apellido Paterno:</label>
+            <input type="text" name="firstLastName" id="firstLastName">
+            <label for="">Apellido Materno:</label>
+            <input type="text" name="secondLastName" id="secondLastName">
+            <label for="">Sexo:</label>
+            <input type="radio" name="gender" value="Hombre" id="gender">
+            <label>Hombre</label>
+            <input type="radio" name="gender" value="gender">
+            <label>Mujer</label>
+        </fieldset>
+
+        <fieldset class="form">
+        <legend>Datos para la Inscripcion</legend>
+            <label>Curso:</label>
+            <select name="grade" id="grade">
+                <option value="1 primaria A">1 primaria A</option>
+                <option value="1 primaria B">1 primaria B</option>
+                <option value="1 primaria C">1 primaria C</option>
+            </select>
+            <label for="">Tipo de estudiante:</label>
+            <input type="radio" name="type" value="Regular" id="type">
+            <label>Regular</label>
+            <input type="radio" name="type" value="Nuevo" id="type">
+            <label>Nuevo</label>
+            <input type="radio" name="type" value="Otro" id="type">
+            <label>Otro</label>
+
+        </fieldset>
+
+        <button onclick="registrar();">Registrar</button>
+        <button onclick="mostrar();">Lista Inscritos</button>
+
+    </div>
+
+    <div id="mostrar">
+
+    </div>
+</body>
+</html>

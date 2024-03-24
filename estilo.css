@@ -1,0 +1,46 @@
+
+
+body{
+    background-color: #ddd;
+}
+
+#registro{
+    display: inline-block;
+}
+
+input[type="text"]{
+    display: block;
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid rgb(35, 35, 181);
+}
+
+label{
+    font-style: arial;
+}
+
+button{
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#InscritosTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#InscritosTable th, #librosTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#InscritosTable th {
+    background-color: #f2f2f2;
+}
